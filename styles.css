@@ -252,37 +252,54 @@ body {
   border-radius: 5px;
   background-color: #ffffff;
 }
-.factory-site__item::before {
+.factory-site__item--first::before {
   display: block;
   width: 88px;
   height: 88px;
   border-radius: 50%;
   position: absolute;
-  top: -44px;
+  top: 475px;
   background-color: #3a3054;
   background-image: url("./images/factory.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   content: "";
 }
 .factory-site__item--second {
   position: relative;
   top: 45px;
 }
+
 .factory-site__item--second::before {
   display: block;
   width: 88px;
   height: 88px;
   border-radius: 50%;
   position: absolute;
-  top: -44px;
+  top: -42px;
   background-color: #3a3054;
-  background-image: url("./images/o\'clock.svg");
+  background-image: url("./images/oclock.svg");
+  background-position: center;
+  background-repeat: no-repeat;
   content: "";
 }
 .factory-site__item--third {
   position: relative;
   top: 90px;
 }
-
+.factory-site__item--third::before {
+  display: block;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  position: absolute;
+  top: -42px;
+  background-color: #3a3054;
+  background-image: url("./images/pensil.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+}
 .factory-site__subtitle {
   margin-top: 0;
   margin-bottom: 12px;
